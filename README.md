@@ -5,24 +5,22 @@ Snow Avalanche Simulation
 This Python script simulates a snow avalanche using the NumPy and Matplotlib libraries. The avalanche starts with a layer of snow in the center of the grid and moves randomly, accumulating more snow as it progresses.
 
 Table of Contents
-Introduction
-Installation
-Usage
-Parameters
-License
-Introduction
+<li>Introduction</li>
+<li>Installation</li>
+<li>Usage</li>
+<li>Parameters</li>
+
+## Introduction
 This simulation demonstrates the behavior of a snow avalanche as it moves through a grid, accumulating more snow based on its density and speed. The avalanche starts at a random location and changes direction when it reaches the edge of the grid.
 
 ## Installation
 To run the simulation, you need to have Python, NumPy, and Matplotlib installed on your system. You can install the required libraries using pip:
 
-bash
 pip install numpy matplotlib
 
 ## Usage
 After installing the required libraries, you can run the simulation by executing the Python script. The avalanche will move, leaving a trail of accumulated snow in its path.
 
-bash
 python avalanche_simulation.py
 
 ## Parameters
